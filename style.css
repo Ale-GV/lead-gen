@@ -2,11 +2,13 @@ body {
   background-color: whitesmoke;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 48px;
+  font-size: 2vw;
+}
+
+div {
   text-align: center;
   vertical-align: middle;
-  align-items: center;
-  align-content: center;
+  padding: 5%;
 }
 
 a:link {
