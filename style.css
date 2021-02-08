@@ -12,8 +12,8 @@ body {
   position: absolute;
   border: 1px solid red;
   padding: 20px;
-  height: 190px;
-  width: 240px;
+  height: 6vh;
+  width: 36vw;
 }
 
 a:link {
@@ -22,8 +22,8 @@ a:link {
   border-radius: 25px;
   border: 2px solid rgb(38, 37, 37);
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  height: 6vh;
+  width: 36vw;
 }
 
 a:visited {
@@ -32,8 +32,8 @@ a:visited {
   border-radius: 25px;
   border: 2px solid rgb(38, 37, 37);
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  height: 6vh;
+  width: 36vw;
 }
 
 a:hover {
@@ -42,6 +42,6 @@ a:hover {
   border-radius: 25px;
   border: 2px solid rgb(38, 37, 37);
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  height: 6vh;
+  width: 36vw;
 }
