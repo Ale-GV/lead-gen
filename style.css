@@ -5,12 +5,12 @@ body {
   font-size: 2vw;
   min-height: 100vh;
   margin: 0px;
-  align-content: center;
+  justify-content: center;
 }
 
 .touchMeNot {
   text-align: center;
-  position: absolute;
+  /*position: absolute; */
   border: 1px solid red;
   padding: 20px;
   height: 6vh;
