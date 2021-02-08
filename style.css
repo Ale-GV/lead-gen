@@ -12,8 +12,8 @@ body {
   position: absolute;
   border: 1px solid red;
   padding: 20px;
-  height: 10vw;
-  width: 45vw;
+  height: 150px;
+  width: 200px;
 }
 
 a:link {
