@@ -1,4 +1,4 @@
-$(".touchMeNot").on("mouseenter", function (e) {
+$(".touchMeNot").on("mouseenter", function () {
   var maxX = $(window).width() - $(this).width();
   var maxY = $(window).height() - $(this).height();
   $(this).css({
