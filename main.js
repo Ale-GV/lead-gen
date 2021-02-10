@@ -6,12 +6,12 @@ function getRandomInt(min, max) {
 }
 
 $(document).ready(function() {
-$(".touchMeNot").mouseenter(function () {
-  $(this).css({
-    left: getRandomInt(0, maxX),
-    top: getRandomInt(0, maxY)
+  $(".touchMeNot").mouseenter(function () {
+    $(this).css({
+      left: getRandomInt(0, maxX),
+      top: getRandomInt(0, maxY)
+    });
   });
-});
 });
 
 /* original
