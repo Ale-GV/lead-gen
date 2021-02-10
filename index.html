@@ -17,8 +17,20 @@
       });
     </script>
   </head>
+  <body>
+    <div class="touchMeNot"></div>
 
-  <div class="touchMeNot"></div>
+    <script type="text/javascript" src="main.js">
+          $(document).ready(function() {
+            $(".touchMeNot").mouseenter(function () {
+              $(this).css({
+                left: getRandomInt(0, maxX),
+                top: getRandomInt(0, maxY)
+          });
+        });
+      });
+    </script>
+  </body>
 </html>
 
 <!-- <html>
