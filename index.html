@@ -6,8 +6,13 @@
     <link type="text/css" rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="main.js" type="text/javascript">
-      $(document).ready(function() {
-        console.log( "ready!" );
+              $(document).ready(function() {
+                $(".touchMeNot").mouseenter(function () {
+                  $(this).css({
+                    left: getRandomInt(0, maxX),
+                    top: getRandomInt(0, maxY)
+          });
+        });
       });
     </script>
   </head>
