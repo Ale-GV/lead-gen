@@ -1,7 +1,7 @@
-$(".touchMeNot").on("mouseenter", function (e) {
+jQuery(".touchMeNot").mouseenter(function () {
   var maxX = $(window).width() - $(this).width();
   var maxY = $(window).height() - $(this).height();
-  $(this).css({
+  jQuery(this).css({
     left: getRandomInt(0, maxX),
     top: getRandomInt(0, maxY)
   });
