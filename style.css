@@ -20,31 +20,30 @@ body {
   top: 300px;
 }
 
-/*
 a:link {
   text-decoration: none;
-  color: rgb(38, 37, 37);
-  border-radius: 25px;
+  color: rgb(250, 250, 250);
+  /*border-radius: 25px;
   border: 2px solid rgb(38, 37, 37);
   padding: 20px;
   height: 6vh;
-  width: 36vw;
+  width: 36vw;*/
 }
 
 a:visited {
   text-decoration: none;
-  color: rgb(38, 37, 37);
-  border-radius: 25px;
+  color: rgb(250, 250, 250);
+  /*border-radius: 25px;
   border: 2px solid rgb(38, 37, 37);
   padding: 20px;
   height: 6vh;
-  width: 36vw;
+  width: 36vw;*/
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(38, 37, 37);
-  border-radius: 25px;
+  color: rgb(250, 250, 250);
+  /*border-radius: 25px;
   border: 2px solid rgb(38, 37, 37);
   padding: 20px;
   height: 6vh;
